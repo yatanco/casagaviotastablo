@@ -5,10 +5,13 @@ import image from "@astrojs/image";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 
+
 import { remarkReadingTime } from "./src/utils/all";
 
+
 export default defineConfig({
-  site: "https://stablo-astro.web3templates.com",
+  site: 'https://yatanco.github.io',
+  // base: '/casagaviotastablo',
   experimental: {
     contentCollections: true,
   },
