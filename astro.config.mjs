@@ -11,9 +11,10 @@ import { remarkReadingTime } from "./src/utils/all";
 
 export default defineConfig({
   site: 'https://yatanco.github.io',
-  base: '/casagaviotastablo',
+  // base: '/casagaviotastablo',
   experimental: {
     contentCollections: true,
+    assets: true
   },
   markdown: {
     remarkPlugins: [remarkReadingTime],
